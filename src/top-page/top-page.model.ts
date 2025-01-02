@@ -6,6 +6,7 @@ export enum TopLevelCategory {
 }
 
 export class TopPageModel {
+	_id: string;
 	firstCategory: TopLevelCategory;
 	secondCategroy: string;
 	title: string;
